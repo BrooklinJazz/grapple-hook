@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Chiptune_Adventures_1.ogg-1b426d122ecf836e74a6318717163ea2.oggstr"
+
+[deps]
+
+source_file="res://Hoppy_Days_Assets (1)/SFX/Chiptune_Adventures_1.ogg"
+dest_files=[ "res://.import/Chiptune_Adventures_1.ogg-1b426d122ecf836e74a6318717163ea2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
