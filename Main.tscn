@@ -1,3 +1,17 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 
 [node name="Main" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+format = 1
+tile_data = PoolIntArray( 14, 2, 0, 29, 2, 0, 524295, 2, 0, 524310, 4, 0, 524324, 2, 0, 1179648, 0, 0, 1179654, 0, 0, 1179660, 0, 0, 1179666, 0, 0, 1179672, 0, 0, 1179678, 0, 0, 1179684, 0, 0, 1179690, 2, 0, 1179696, 2, 0, 1179702, 2, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1234.04, 1039.82 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
